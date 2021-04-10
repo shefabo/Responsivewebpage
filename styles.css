@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-
+@media screen and (max-width: 768px) {
+    div.navBar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100vw;
+    }
+    div.logo {
+        font-size: 1.2rem;
+        margin-right: 1.5rem;
+    }
+    ul.navLinks {
+        flex-direction: column;
+    }
+    div.hero-content-heading h3 {
+        font-size: 1rem;
+    }
+    div.background {
+        height: 220px;
+        position: relative;
+    }
+    div.background h4 {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    div.background p {
+        padding-left: 1rem;
+        font-size: 0.8rem;
+    }
+    div.hero-background-pos {
+        display: none;
+    }
+    
+    div.snapshot-team {
+        background: #f0f0f0;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    div.snapshot-team h2 {
+        font-size: 1.2rem;
+    }
+    
+    div.snapshot-team p {
+        font-size: 0.8rem;
+    }
+    
+    div.snapshot-box {
+        padding: 2rem 4rem;
+    }
+    
+    div.snapshot-box-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +63,7 @@
     font-family: 'Rubik', sans-serif;
 }
 
-div.nav-bar {
+div.navBar {
     display: flex;
     justify-content: space-between;
     padding: 1rem 6rem;
@@ -20,7 +76,7 @@ div.logo {
     color: #bcc3c7;
 }
 
-ul.nav-links {
+ul.navLinks {
     display: flex;
     margin: 0;
     padding: 0;
@@ -98,7 +154,7 @@ div.hero-background {
 div.background {
     background: #fff;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-    padding: 15px 40px;
+    padding: 15px 20px;
     width: 550px;
     height: 220px;
     position: relative;
